@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whether App</title>
+    <link rel="stylesheet" href="whether.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="card">
+        <input type="text" placeholder="enter city name" id="search-city">
+        <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+        <p class="error">Invalid city name</p>
+        <div class="bottom">
+            <p id="temp">22°c</p>
+            <p id="city">Bengaluru</p>
+        <div class="down">
+            <div class="humidity">
+                <p id="humi-icon"><i class="fa-solid fa-water"></i></p>
+                <div class="inner-humidity">
+                    <p class="water">53%</p>
+                    <p id="humi">humidity</p>
+                </div>
+            </div>
+            <div class="windSpeed">
+                <p id="wind-icon"><i class="fa-solid fa-wind"></i></i></p>
+                <div class="inner-speed">
+                    <p class="speed">5.66Km/h</p>
+                    <p id="wind">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="whether.js"></script>
+</html>
